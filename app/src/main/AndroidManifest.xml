@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.LandApp">
         <activity
+            android:name=".ViewDetailRoomActivity"
+            android:exported="true" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
